@@ -26,7 +26,7 @@ public class MybatisAutoConfiguration {
     private MapperProperties mapperProperties;
 
     @Bean
-    @ConditionalOnClass(PageHelper.class)
+    //@ConditionalOnClass(PageHelper.class)
     public PageHelper pageHelper(DataSource dataSource) {
         PageHelper pageHelper = new PageHelper();
 
@@ -42,12 +42,12 @@ public class MybatisAutoConfiguration {
     }
 
     @Bean
-    @ConditionalOnClass(MapperScannerConfigurer.class)
+    //@ConditionalOnClass(MapperScannerConfigurer.class)
     public MapperScannerConfigurer mapperScannerConfigurer() {
         MapperScannerConfigurer mapperScannerConfigurer = new MapperScannerConfigurer();
 
         mapperScannerConfigurer.setSqlSessionFactoryBeanName("sqlSessionFactory");
-        mapperScannerConfigurer.setBasePackage("org.springboot.sample.mapper");
+        mapperScannerConfigurer.setBasePackage("com.isea533.mybatis.mapper");
         Properties properties = new Properties();
         if (null != mapperProperties) {
             properties.setProperty("mappers", mapperProperties.getMappers());

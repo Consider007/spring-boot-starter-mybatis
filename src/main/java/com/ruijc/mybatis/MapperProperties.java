@@ -4,7 +4,7 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import tk.mybatis.spring.mapper.MapperScannerConfigurer;
 
-@ConditionalOnClass(MapperScannerConfigurer.class)
+//@ConditionalOnClass(MapperScannerConfigurer.class)
 @ConfigurationProperties("mybatis.mapper")
 public class MapperProperties {
 
