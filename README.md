@@ -1,2 +1,2 @@
-# spring-boot-starter-mybatis
-Springbooty自动化配置Mybatis框架并支持通用Mapper和分页插件。
+# spring-boot-starter-fastjson
+Springboot自动化配置Mybatis框架并支持通用Mapper和分页插件。
