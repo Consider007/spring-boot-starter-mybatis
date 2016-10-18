@@ -1,7 +1,6 @@
 package com.ruijc.mybatis;
 
 import com.github.pagehelper.PageHelper;
-import com.ruijc.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
