@@ -5,7 +5,7 @@
 
     <groupId>com.ruijc</groupId>
     <artifactId>spring-boot-starter-mybatis</artifactId>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <packaging>jar</packaging>
 
     <name>spring-boot-starter-mybatis</name>
